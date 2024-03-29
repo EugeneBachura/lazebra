@@ -1,0 +1,39 @@
+.popup-map {
+    width: 1280px;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+}
+.mfp-fade.mfp-bg, .mfp-fade.mfp-wrap .mfp-content  {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+.mfp-bg.mfp-ready {
+    background: #1B2229;
+    opacity: 0.7;
+}
+.mfp-wrap.mfp-auto-cursor.mfp-ready {
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+}
+.popup-map__frame {
+    width: 1280px;
+    height: 700px;
+}
+.popup-map__close-btn {
+    content: '';
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top:-29px;
+    right: 0;
+    background: transparent url('../img/w-x.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,337 @@
+@media screen and (max-width: 1420px) {
+    .big-banner__container {
+        width: 990px;
+    }
+    .big-banner__description {
+        width: 535px;
+    }
+    .big-banner__sliders {
+        width: 535px;
+        height: 430px;
+    }
+    .big-banner__point-heading {
+        width: 400px;
+    }
+    .big-banner__point-text {
+        width: 400px;
+        max-width: unset;
+    }
+    .big-banner__content-text {
+        width: 400px;
+        margin-left: 28px;
+    }
+    /* slider */
+    #bigbannerSlider .slick-slide .slider__content {
+        width: 535px;
+        height: 369px;
+    }
+    #bigbannerSlider1 .slick-slide .slider__content {
+        width: 535px;
+        height: 369px;
+    }
+    #bigbannerSlider2 .slick-slide .slider__content {
+        width: 535px;
+        height: 369px;
+    }
+    #bigbannerSlider3 .slick-slide .slider__content {
+        width: 535px;
+        height: 369px;
+    }
+    #bigbannerSlider4 .slick-slide .slider__content {
+        width: 535px;
+        height: 369px;
+    }
+    #bigbannerSlider {
+        width: 535px;
+    }
+    #bigbannerSlider1 {
+        width: 535px;
+    }
+    #bigbannerSlider2 {
+        width: 535px;
+    }
+    #bigbannerSlider3 {
+        width: 535px;
+    }
+    #bigbannerSlider4 {
+        width: 535px;
+    }
+    #bigbannerSlider .slick-slide {
+        width: 535px !important;
+        height: 369px !important;
+        background-size: 535px !important;
+    }
+    #bigbannerSlider1 .slick-slide {
+        width: 535px !important;
+        height: 369px !important;
+        background-size: 535px !important;
+    }
+    #bigbannerSlider2 .slick-slide {
+        width: 535px !important;
+        height: 369px !important;
+        background-size: 535px !important;
+    }
+    #bigbannerSlider3 .slick-slide {
+        width: 535px !important;
+        height: 369px !important;
+        background-size: 535px !important;
+    }
+    #bigbannerSlider4 .slick-slide {
+        width: 535px !important;
+        height: 369px !important;
+        background-size: 535px !important;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .big-banner__container {
+        width: 723px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+    .big-banner__sliders {
+        width: 723px;
+        height: 327px;
+    }
+    .big-banner__description {
+        width: 723px;
+        padding: 20px 10px 25px 20px;
+    }
+    .big-banner__content {
+        width: 723px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+    .big-banner__content-text {
+        margin-left: 0;
+        width: 693px;
+        padding: 20px 10px 25px 20px;
+    }
+    .big-banner__headline {
+        font: normal normal bold 20px/27px Nunito;
+    }
+    .big-banner__p {
+        font: normal normal normal 16px/18px Nunito;
+    }
+    .big-banner__point-heading {
+        width: 680px;
+    }
+    .big-banner__point-text {
+        width: 680px;
+        max-width: unset;
+    }
+    /* slider */
+    #bigbannerSlider .big-banner__subtitle {
+        width: auto;
+    }
+    #bigbannerSlider1 .big-banner__subtitle {
+        width: auto;
+    }
+    #bigbannerSlider2 .big-banner__subtitle {
+        width: auto;
+    }
+    #bigbannerSlider3 .big-banner__subtitle {
+        width: auto;
+    }
+    #bigbannerSlider4 .big-banner__subtitle {
+        width: auto;
+    }
+    #bigbannerSlider .slick-slide .slider__content {
+        width: 723px;
+        height: 369px;
+    }
+    #bigbannerSlider1 .slick-slide .slider__content {
+        width: 723px;
+        height: 369px;
+    }
+    #bigbannerSlider2 .slick-slide .slider__content {
+        width: 723px;
+        height: 369px;
+    }
+    #bigbannerSlider3 .slick-slide .slider__content {
+        width: 723px;
+        height: 369px;
+    }
+    #bigbannerSlider4 .slick-slide .slider__content {
+        width: 723px;
+        height: 369px;
+    }
+    #bigbannerSlider {
+        width: 723px;
+    }
+    #bigbannerSlider1 {
+        width: 723px;
+    }
+    #bigbannerSlider2 {
+        width: 723px;
+    }
+    #bigbannerSlider3 {
+        width: 723px;
+    }
+    #bigbannerSlider4 {
+        width: 723px;
+    }
+    #bigbannerSlider .slick-slide {
+        border-radius: 10px;
+        width: 723px !important;
+        height: 280px !important;
+        background-size: 723px !important;
+        background-position: center !important;
+    }
+    #bigbannerSlider1 .slick-slide {
+        border-radius: 10px;
+        width: 723px !important;
+        height: 280px !important;
+        background-size: 723px !important;
+        background-position: center !important;
+    }
+    #bigbannerSlider2 .slick-slide {
+        border-radius: 10px;
+        width: 723px !important;
+        height: 280px !important;
+        background-size: 723px !important;
+        background-position: center !important;
+    }
+    #bigbannerSlider3 .slick-slide {
+        border-radius: 10px;
+        width: 723px !important;
+        height: 280px !important;
+        background-size: 723px !important;
+        background-position: center !important;
+    }
+    #bigbannerSlider4 .slick-slide {
+        border-radius: 10px;
+        width: 723px !important;
+        height: 280px !important;
+        background-size: 723px !important;
+        background-position: center !important;
+    }
+    #bigbannerSlider .slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #bigbannerSlider1 .slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #bigbannerSlider2 .slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #bigbannerSlider3 .slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #bigbannerSlider4 .slick-dots {
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+@media screen and (max-width: 768px) {
+    .big-banner__container {
+        width: 340px;
+    }
+    .big-banner__sliders {
+        width: 340px;
+        height: 277px;
+    }
+    .big-banner__description {
+        width: 300px;
+        padding: 20px 15px 25px 25px;
+    }
+    .big-banner__content {
+        width: 340px;
+        margin-top: 40px;
+    }
+    .big-banner__content-text {
+        width: 300px;
+        padding: 20px 15px 25px 25px;
+    }
+    .big-banner__p {
+        font: normal normal normal 15px/16px Nunito;
+    }
+    .big-banner__point-heading {
+        width: 300px;
+    }
+    .big-banner__point-text {
+        width: 300px;
+        max-width: unset;
+    }
+    
+    /* slider */
+    #bigbannerSlider .slick-slide .slider__content {
+        width: 340px;
+        height: 230px;
+    }
+    #bigbannerSlider1 .slick-slide .slider__content {
+        width: 340px;
+        height: 230px;
+    }
+    #bigbannerSlider2 .slick-slide .slider__content {
+        width: 340px;
+        height: 230px;
+    }
+    #bigbannerSlider3 .slick-slide .slider__content {
+        width: 340px;
+        height: 230px;
+    }
+    #bigbannerSlider4 .slick-slide .slider__content {
+        width: 340px;
+        height: 230px;
+    }
+    #bigbannerSlider {
+        width: 340px;
+    }
+    #bigbannerSlider1 {
+        width: 340px;
+    }
+    #bigbannerSlider2 {
+        width: 340px;
+    }
+    #bigbannerSlider3 {
+        width: 340px;
+    }
+    #bigbannerSlider4 {
+        width: 340px;
+    }
+    #bigbannerSlider .slick-slide {
+        width: 340px !important;
+        height: 230px !important;
+        background-size: 340px !important;
+    }
+    #bigbannerSlider1 .slick-slide {
+        width: 340px !important;
+        height: 230px !important;
+        background-size: 340px !important;
+    }
+    #bigbannerSlider2 .slick-slide {
+        width: 340px !important;
+        height: 230px !important;
+        background-size: 340px !important;
+    }
+    #bigbannerSlider3 .slick-slide {
+        width: 340px !important;
+        height: 230px !important;
+        background-size: 340px !important;
+    }
+    #bigbannerSlider4 .slick-slide {
+        width: 340px !important;
+        height: 230px !important;
+        background-size: 340px !important;
+    }
+}
+}

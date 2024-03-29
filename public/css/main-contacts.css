@@ -1,0 +1,23 @@
+body.scroll .breadcrumbs {
+    margin-top: 218px;
+}
+
+@media screen and (max-width: 1420px) {
+    body.scroll .breadcrumbs {
+        margin-top: 208px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    body .breadcrumbs {
+        margin-top: 65px;
+    }
+    .title,.breadcrumbs {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .title,.breadcrumbs {
+        width: 340px;
+    }
+}

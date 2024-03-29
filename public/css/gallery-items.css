@@ -1,0 +1,92 @@
+.gallery-items {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.gallery-items__item {
+    width: 400px;
+    height: 320px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    background-size: cover;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.gallery-items__item:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.mfp-gallery {
+    cursor: auto;
+}
+.mfp-gallery .mfp-content {
+    width: 800px;
+}
+.mfp-gallery .mfp-close {
+    content: '';
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background: transparent url(../img/w-x.svg) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    cursor: pointer !important;
+    padding: 0;
+    opacity: 1;
+}
+.mfp-gallery .mfp-counter {
+    display: none;
+}
+.mfp-gallery .mfp-figure:after {
+    -webkit-box-shadow:none;
+            box-shadow:none;
+    background: transparent;
+}
+.mfp-s-loading .mfp-arrow { 
+    display: none;
+ }
+.mfp-gallery button.mfp-arrow {
+    width: 80px;
+    height: 129px;
+    background: #FFFFFF url('../img/arrow.svg') 0% 0% no-repeat padding-box;
+    background-position: 16px 48px;
+    background-size: 29.5px 29.5px;
+    border: 1px solid #707070;
+    border-radius: 0px 10px 10px 0;
+    opacity: 1;
+    -webkit-transform-origin: initial;
+        -ms-transform-origin: initial;
+            transform-origin: initial;
+}
+.mfp-gallery button.mfp-arrow:hover {
+    opacity: 0.8;
+}
+.mfp-arrow-right:before, .mfp-arrow-right:after, .mfp-arrow-left:before , .mfp-arrow-left:after {
+    display: none;
+}
+.mfp-arrow-right {
+    right: -80px;
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+.mfp-arrow-left {
+    left: -80px;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}

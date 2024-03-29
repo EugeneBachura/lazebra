@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    .mfp-container {
+        padding: 0;
+    }
+    .mfp-content {
+        width: 100%;
+        height: 100%;
+    }
+    .popup-ask {
+        width: calc( 100% - 60px );
+        height: calc( 100% - 60px );
+        padding: 30px;
+        border-radius: 0;
+    }
+    .popup-ask__title {
+        font: normal normal 600 22px/26px Nunito;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 23px;
+    }
+    .popup-ask__form-ask {
+        margin-bottom: 27px;
+    }
+    .popup-ask__form-checkbox-text {
+        width: calc( 100% - 13px - 8px );
+        margin-bottom: 36px;
+    }
+    .popup-ask__submit-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .popup-ask__close-btn {
+        top: 20px;
+        right: 20px;
+        background: transparent url(../../img/x.svg) 0% 0% no-repeat padding-box;
+        background-size: cover;
+    }
+}

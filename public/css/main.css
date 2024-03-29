@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+body.active {
+    overflow-y: hidden;
+}
+*:focus {
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+input:focus::-ms-input-placeholder {
+    color: transparent;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+.privacylink {
+    color: #000000;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #bebebe;
+            text-decoration-color: #bebebe;
+}
+.start-hide {
+    visibility: hidden;
+}

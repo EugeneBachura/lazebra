@@ -1,0 +1,165 @@
+@media screen and (max-width: 1420px) {
+    .slider, .slider.scroll {
+        padding-top: 200px;
+    }
+    .slider {
+        /*width: 990px;*/
+        margin: auto;
+        padding-top: 0px;
+    }
+    .slider__content-icon {
+        top: 34px;
+        right: 438px;
+    }
+    .slider__content-title {
+        width: 400px;
+        margin-top: 45px;
+        margin-right: 25px;
+        font: normal normal bold 63px/54px Nunito;
+    }
+    .slider__content-title small {
+        font: normal normal bold 45px/48px Nunito;
+    }
+    .slider__content-text {
+        width: 400px;
+        margin-right: 25px;
+        font: normal normal bold 45px/48px Nunito;
+    }
+    .slider__content-text small {
+        font: normal normal bold 23px/48px Nunito;
+    }
+    #main-slider .slick-list {
+        padding: 0px calc(50% - (1050px) / 2);
+    }
+    #main-slider .slider__item {
+        background-position: center top !important;
+        background-size: auto 271px !important;
+        height: 271px;
+        width: 1050px;
+        border-radius: 10px;
+    }
+    #main-slider .slider__content {
+        border-radius: 10px;
+    }
+    #main-slider .slick-slide .slider__content {
+        width: 990px;
+        height: 271px;
+    }
+    #main-slider .slick-arrow.slick-prev {
+        left: calc(50% - (1060px) / 2);
+        top: calc( 271px / 2 - 33px / 2 );
+    }
+    #main-slider .slick-arrow.slick-next {
+        right: calc( 50% - (1060px) / 2 );
+        top: calc( 271px / 2 - 33px / 2 );
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .slider {
+        padding-top: 65px;
+    }
+    .slider__content-icon {
+        width: 90px;
+        height: 90px;
+        top: 30px;
+        right: 315px;
+    }
+    .slider__content-title {
+        width: 275px;
+        margin-top: 30px;
+        margin-right: 25px;
+        font: normal normal bold 43px/41px Nunito;
+    }
+    .slider__content-title small {
+        font: normal normal bold 30px/25px Nunito;
+    }
+    .slider__content-text {
+        width: 275px;
+        margin-right: 25px;
+        margin-top: 10px;
+        font: normal normal bold 30px/30px Nunito;
+    }
+    .slider__content-text small {
+        font: normal normal bold 16px/30px Nunito;
+    }
+    #main-slider .slick-list {
+        padding: 0px calc(50% - (750px) / 2);
+    }
+    #main-slider .slider__item {
+        background-position: center top !important;
+        background-size: auto 191px !important;
+        height: 191px;
+        width: 750px;
+        border-radius: 10px;
+    }
+    #main-slider .slider__content {
+        border-radius: 10px;
+    }
+    #main-slider .slick-slide .slider__content {
+        width: 700px;
+        height: 191px;
+    }
+    #main-slider .slick-arrow.slick-prev {
+        left: calc(50% - (750px) / 2);
+        top: calc( 300px / 2 - 33px / 2 );
+    }
+    #main-slider .slick-arrow.slick-next {
+        right: calc( 50% - (750px) / 2 );
+        top: calc( 300px / 2 - 33px / 2 );
+    }
+    .slider.scroll {
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        width: 340px;
+        margin: auto;
+    }
+    .slider, .slider.scroll {
+        padding-top: 65px;
+    }
+    .slider__content-icon {
+        width: 60px;
+        height: 60px;
+        top: 25px;
+        right: 175px;
+    }
+    .slider__content-title {
+        width: 152px;
+        margin-top: 28px;
+        margin-right: 18px;
+        font: normal normal bold 26px/26px Nunito;
+    }
+    .slider__content-title small {
+        font: normal normal bold 19px/19px Nunito;
+    }
+    .slider__content-text {
+        width: 152px;
+        margin-right: 18px;
+        margin-top: 10px;
+        font: normal normal bold 19px/19px Nunito;
+    }
+    .slider__content-text small {
+        font: normal normal bold 8px/19px Nunito;
+    }
+    #main-slider .slick-arrow.slick-next, #main-slider .slick-arrow.slick-prev {
+        display: none;
+    }
+    #main-slider .slick-list {
+        overflow: hidden;
+    }
+    #main-slider .slider__item {
+        background-position: right top !important;
+        background-size: auto 130px !important;
+        height: 130px;
+        width: 340px;
+        border-radius: 10px;
+    }
+    #main-slider .slick-slide .slider__content {
+        width: unset;
+        height: unset;
+    }
+}

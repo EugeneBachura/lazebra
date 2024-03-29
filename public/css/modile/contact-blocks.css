@@ -1,0 +1,80 @@
+@media screen and (max-width: 1420px) {
+    .contact-blocks {
+        width: 990px;
+    }
+    .contact-blocks__item {
+        width: 400px;
+        /*height: 305px;*/
+        height: auto;
+        padding: 30px;
+    }
+    .contact-blocks__content-item {
+        margin-bottom: 20px;
+    }
+    .contact-blocks__content-item:last-child {
+        margin-bottom: 0px;
+    }
+    .contact-blocks__phone {
+        margin-bottom: 5px;
+    }
+    .contact-blocks__invite {
+        width: 400px;
+        /*height: 295px;*/
+        height: auto;
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .contact-blocks {
+        width: 723px;
+    }
+    .contact-blocks__item {
+        width: 510px;
+        height: unset;
+        padding: 45px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-blocks__invite {
+        width: 510px;
+        height: 220px;
+        padding: 45px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-blocks__btn {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-blocks {
+        width: 340px;
+        margin-top: 30px;
+    }
+    .contact-blocks__item {
+        width: 300px;
+        height: unset;
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-blocks__title {
+        margin-bottom: 20px;
+    }
+    .contact-blocks__invite {
+        width: 300px;
+        height: 315px;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-blocks__invite-title {
+        font: normal normal bold 30px/35px Nunito;
+    }
+    .contact-blocks__btn {
+        margin-top: 20px;
+    }
+}

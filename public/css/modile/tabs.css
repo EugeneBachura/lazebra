@@ -1,0 +1,59 @@
+@media screen and (max-width: 1420px) {
+    .tabs {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .tabs {
+        width: 723px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        min-width: 190px;
+    }
+    .tabs__title {
+        font: normal normal 600 18px/36px Nunito;
+    }
+    .ui-tabs .ui-tabs-panel {
+        -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+                align-items: stretch;
+        padding: 20px;
+    }
+    .tabs__properties {
+        width: 310px;
+    }
+    .tabs__properties h4 {
+        margin-bottom: 5px;
+        font: normal normal 600 16px/18px Nunito;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tabs {
+        width: 340px;
+    }
+    .ui-tabs .ui-tabs-nav {
+        margin-bottom: 30px;
+    }
+    .tabs__title {
+        font: normal normal 600 20px/36px Nunito;
+    }
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        border-radius: 10px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        min-width: 310px;
+        padding: 10px 15px;
+    }
+    .ui-tabs .ui-tabs-panel {
+        padding: 25px;
+    }
+    .tabs__checklist {
+        width: 290px;
+        padding-left: 25px;
+    }
+    .tabs__checklist-item {
+        padding-left: 5px;
+    }
+}

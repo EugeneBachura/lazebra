@@ -1,0 +1,35 @@
+@media screen and (max-width: 1420px) {
+    .questions {
+        width: 990px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .questions {
+        width: 723px;
+    }
+    .questions__item {
+        padding: 30px 50px;
+    }
+    .questions__btn {
+        top: 29px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .questions {
+        width: 340px;
+    }
+    .questions__title {
+        font: normal normal bold 32px/36px Nunito;
+    }
+    .questions__item {
+        padding: 20px 40px 20px 20px;
+    }
+    .questions__btn {
+        top: 28px;
+        right: 15px;
+    }
+    .questions__item.show .questions__btn {
+        top: 18px;
+    }
+    
+}

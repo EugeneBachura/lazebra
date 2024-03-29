@@ -1,0 +1,307 @@
+@media screen and (max-width: 1420px) {
+    .constructor {
+        width: 990px;
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: 450px 520px;
+        grid-template-rows: 570px 175px;
+        gap: 0px 20px;
+        grid-template-areas:
+        "constructor__model constructor__tabs"
+        "constructor__model constructor__bottom-form";
+    }
+    .constructor__bottom-form { grid-area: constructor__bottom-form; }
+    .constructor__tabs { grid-area: constructor__tabs; }
+    .constructor__model { grid-area: constructor__model; }
+    .constructor__design {
+        width: 225px;
+    }
+    .constructor__design-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 195px;
+        width: 225px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        width: 102px;
+        height: 34px;
+    }
+    .constructor__tabs-title {
+        font: normal normal 600 17px/34px Nunito;
+    }
+    /* tad 2 */
+    .constructor__selection-material-arrow-block {
+        width: 35px;
+        height: 35px;
+    }
+    .constructor__selection-block {
+        width: 150px;
+        min-width: 150px;
+        margin-bottom: 20px;
+    }
+    .constructor__selection-title {
+        width: 150px;
+        font: normal normal 600 15px/17px Nunito;
+    }
+    .constructor__selection-slider {
+        width: 150px;
+    }
+    .constructor__selection-material-arrow {
+        top: 11px;
+        right: 7px;
+    }
+    .constructor__selection-material-arrow-block.right {
+        left: 108px;
+    }
+    .constructor__selection-material {
+        width: 70px;
+    }
+    .constructor__selection-item {
+        width: 70px !important;
+        height: 70px;
+    }
+    .constructor__selection-slider-name {
+        width: 150px;
+    }
+    .constructor__selection-name-item {
+        width: 150px !important;
+    }
+    /* tab 3 */
+    .constructor__stitch {
+        height: 450px;
+    }
+    /* tab 4 */
+    .constructor__pattern {
+        height: calc( 450px - 44px );
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .constructor {
+        width: 723px;
+        grid-template-columns: 310px 392px;
+        grid-template-areas:
+        "constructor__model constructor__tabs"
+        "constructor__bottom-form constructor__bottom-form";
+    }
+    .constructor__model {
+        height: 540px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        width: 115px;
+    }
+    .ui-tabs .ui-tabs-nav li, .ui-tabs .ui-tabs-nav li.ui-tabs-active {
+        /*margin-bottom: 10px;*/
+    }
+    .constructor__tabs-content {
+        margin-top: 20px;
+    }
+    .constructor__design {
+        width: 175px;
+    }
+    .constructor__design-img {
+        height: 155px;
+        width: 175px;
+    }
+    .constructor__selection-block {
+        width: 125px;
+        min-width: 125px;
+        margin-bottom: 15px;
+    }
+    .constructor__selection-material-arrow-block {
+        width: 30px;
+        height: 30px;
+        top: 41px;
+    }
+    .constructor__selection-material-arrow {
+        width: 10px;
+        height: 10px;
+        top: 10px;
+        right: 7px;
+    }
+    .constructor__selection-slider {
+        width: 130px;
+    }
+    .constructor__selection-material-arrow-block.right {
+        left: 93px;
+    }
+    .constructor__selection-item {
+        width: 60px !important;
+        height: 60px;
+    }
+    .constructor__selection-material {
+        width: 60px;
+    }
+    .constructor__selection-title {
+        width: 128px;
+        font: normal normal 600 12.7px/15px Nunito;
+    }
+    .constructor__selection-slider-name {
+        width: 130px;
+    }
+    .constructor__selection-name-item {
+        width: 130px !important;
+        font: normal normal normal 12px/13px Nunito;
+    }
+    /* 3 tab */
+    .constructor__stitch-item {
+        width: 65px;
+    }
+    .constructor__stitch-img {
+        width: 65px;
+        height: 65px;
+    }
+    .constructor__stitch-name {
+        font: normal normal normal 11px/13px Nunito;
+    }
+    /* 4 tab */
+    .constructor__pattern3d-checkbox, .constructor__pattern-headrest-checkbox {
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+    }
+    .constructor__pattern3d label, .constructor__pattern-headrest label {
+        font: normal normal 600 14.5px/20px Nunito;
+    }
+    .constructor_pattern-title {
+        font: normal normal 600 16px/17px Nunito;
+    }
+    .constructor__pattern-item {
+        width: 65px;
+    }
+    .constructor__pattern-img {
+        width: 65px;
+        height: 65px;
+    }
+    .constructor__pattern-name {
+        font: normal normal normal 11px/13px Nunito;
+    }
+    .constructor_pattern-color-title {
+        font: normal normal 600 16px/17px Nunito;
+    }
+    .constructor__pattern-color-item {
+        width: 65px;
+    }
+    .constructor__pattern-color-img {
+        width: 65px;
+        height: 65px;
+    }
+    .constructor__pattern-color-name {
+        font: normal normal normal 11px/13px Nunito;
+    }
+
+    .constructor__bottom-form {
+        gap: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .constructor {
+        width: 340px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px auto 175px;
+        grid-template-areas:
+        "constructor__model"
+        "constructor__tabs"
+        "constructor__bottom-form";
+    }
+    .constructor__model {
+        height: 450px;
+        width: 340px;
+    }
+    .ui-tabs.constructor__tabs {
+        grid-area: auto;
+        width: 340px;
+    }
+    .constructor__tabs-title {
+        font: normal normal 600 20px/34px Nunito;
+    }
+    .constructor__bottom-form {
+        width: 340px;
+    }
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        width: 340px;
+    }
+    /* 2 tab */
+    .constructor__selection-block {
+        width: 160px;
+    }
+    .constructor__selection-title {
+        width: 160px;
+        font: normal normal 600 16px/16px Nunito;
+    }
+    .constructor__selection-slider {
+        width: 160px;
+    }
+    .constructor__selection-material {
+        width: 80px;
+    }
+    .constructor__selection-item {
+        width: 80px !important;
+        height: 80px;
+    }
+    .constructor__selection-material-arrow-block {
+        width: 35px;
+        height: 35px;
+        top: 50px;
+    }
+    .constructor__selection-material-arrow-block.right {
+        left: 117px;
+    }
+    .constructor__selection-material-arrow {
+        width: 12px;
+        height: 12px;
+        top: 12px;
+        right: 8px;
+    }
+    .constructor__selection-slider-name {
+        width: 160px;
+    }
+    .constructor__selection-name-item {
+        width: 160px !important;
+        font: normal normal normal 13px/14px Nunito;
+    }
+    /* 3,4 tab */
+    .constructor__stitch-item, .constructor__pattern-item, .constructor__pattern-color-item {
+        width: 80px;
+    }
+    .constructor__stitch-img, .constructor__pattern-img, .constructor__pattern-color-img {
+        width: 80px;
+        height: 80px;
+    }
+    .constructor__stitch-name, .constructor__pattern-name, .constructor__pattern-color-name {
+        font: normal normal normal 12px/13px Nunito;
+    }
+    .constructor_pattern-title {
+        font: normal normal 600 17px/18px Nunito;
+    }
+    .constructor__pattern3d label, .constructor__pattern-headrest label {
+        font: normal normal 600 16px/20px Nunito;
+    }
+    .constructor__pattern3d-checkbox, .constructor__pattern-headrest-checkbox {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    .constructor__pattern3d, .constructor__pattern-headrest {
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+    }
+
+    .constructor__price {
+        font: normal normal 600 38px/42px Nunito;
+    }
+    .constructor__popup-model {
+        padding-left: 15px;
+        padding-right: 25px;
+        font: normal normal 600 14.5px/20px Nunito;
+    }
+    .constructor__select {
+        font: normal normal 600 14.5px/20px Nunito;
+    }
+    .constructor__select option {
+        font: normal normal 600 14.5px/20px Nunito;
+    }
+}

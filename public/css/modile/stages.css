@@ -1,0 +1,166 @@
+@media screen and (max-width: 1420px) {
+    .stages__content {
+        width: 990px;
+        margin-right: auto;
+        margin-left: auto;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .stages__preitem,.stages__item,.stages__item:last-child {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .stages__preitem, .stages__item {
+        width: 240px;
+        min-width: unset;
+    }
+    .stages__item_1 {
+        width: 220px;
+    }
+    .stages__item_1 .stages__item-title{
+        width: 160px;
+    }
+    .stages__item_1 .stages__text{
+        width: 220px;
+    }
+    .stages__icon {
+        margin-right: 10px;
+    }
+    .stages__title {
+        width: 175px;
+        z-index: 11;
+        margin-right: -15px;
+    }
+    .stages__1line, .stages__2line, .stages__3line, .stages__4line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .stages__content {
+        width: 723px;
+    }
+    .stages__preitem {
+        width: 723px;
+        margin-bottom: 15px;
+    }
+    .stages__icon {
+        display: none;
+    }
+    .stages__title {
+        height: auto;
+        width: auto;
+        font: normal normal bold 32px/43px Nunito;
+        margin-bottom: 6px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .stages__content {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        width: 360px;
+    }
+    .stages__preitem {
+        width: 360px;
+        margin: 0;
+        margin-bottom: 38px;
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+    .stages__1line {
+        right: 0px;
+        top: -15px;
+        background: transparent url(../../img/stages/mobile-line.svg) 99% 5% no-repeat padding-box;
+    }
+    .stages__icon {
+        width: 60px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .stages__title {
+        width: 193px;
+        height: 60px;
+        text-align: center;
+        font: normal normal 800 24px/28px Nunito;
+        letter-spacing: 0px;
+        color: #282A2C;
+        text-transform: uppercase;
+        margin-top: 9px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+    .stages__item {
+        margin-bottom: 26px;
+    }
+    .stages__item_1 .stages__item-title{
+        width: 243px;
+    }
+    .stages__item_1 .stages__text{
+        width: 278px;
+    }
+    .stages__2line, .stages__3line, .stages__4line {
+        display: none;
+    }
+    .stages__number {
+        width: 43px;
+        height: 44px;
+        font: normal normal normal 36px/32px Nunito;
+        margin-right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        margin-left: 39px;
+    }
+    .stages__item {
+        width: 360px;
+    }
+    .stages__item-title {
+        width: 243px;
+        height: 44px;
+        font: normal normal bold 18px/20px Nunito;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+        margin-bottom: 3.5px;
+    }
+    .stages__item-title.wrap {
+        word-spacing: normal;
+    }
+    .stages__text {
+        width: 278px;
+        height: unset;
+        font: normal normal normal 13px/15px Nunito;
+        color: #000000;
+        margin-bottom: 21px;
+        margin-left: 39px;
+    }
+    .stages__btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

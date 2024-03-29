@@ -1,0 +1,43 @@
+@media screen and (max-width: 1420px) {
+    .mini-banner {
+        width: 990px;
+    }
+    .mini-banner__img {
+        width: 535px;
+    }
+    .mini-banner__content {
+        width: 400px;
+        padding: 28px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .mini-banner {
+        width: 723px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+    .mini-banner__img {
+        width: 723px;
+        background-size: cover !important;
+    }
+    .mini-banner__content {
+        width: 693px;
+        padding: 20px 10px 25px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mini-banner {
+        width: 340px;   
+    }
+    .mini-banner__img {
+        width: 340px;
+    }
+    .mini-banner__content {
+        width: 300px;
+        padding: 20px 15px 25px 25px;
+    }
+}

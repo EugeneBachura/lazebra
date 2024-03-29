@@ -1,0 +1,108 @@
+@media screen and (max-width: 1420px) {
+    .article {
+        width: 990px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+    .article__content {
+        width: 990px;
+    }
+    .article__img {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .article__caption {
+        width: 770px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .article__blog-articles {
+        width: 990px;
+        margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .article {
+        width: 723px;
+    }
+    .article__content {
+        width: 723px;
+    }
+    .article__img {
+        width: 723px;
+        height: 395px;
+        background-size: cover !important;
+    }
+    .article__caption {
+        width: 723px;
+    }
+    .article__blog-articles {
+        width: 723px;
+    }
+    .article__blog-item {
+        width: 340px;
+    }
+    .article__blog-img {
+        background-size: cover !important;   
+    }
+    .article__blog-description {
+        padding: 30px 34px 30px 35px;
+    }
+    .article__blog-subtitle {
+        font: normal normal 600 17.5px/23px Nunito;
+        height: 68px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .article {
+        width: 340px;
+        margin-top: 25px;
+    }
+    .article__content {
+        width: 340px;
+    }
+    .article__img {
+        width: 340px;
+        height: 185px;
+    }
+    .article__caption {
+        width: 340px;
+        margin-bottom: 30px;
+    }
+    .article__blog-articles {
+        width: 340px;
+    }
+    .article__entry {
+        margin-bottom: 30px;
+        font: normal normal bold 17px/24px Nunito;
+    }
+    .article__text {
+        margin-bottom: 30px;
+    }
+    .article__p {
+        font: normal normal normal 16px/24px Nunito;
+        -webkit-mask-position: 1rem;
+                mask-position: 1rem;
+    }
+    .article__subtitle {
+        font: normal normal bold 27px/25px Nunito;
+        margin-bottom: 15px;
+    }
+    .article__blog-articles {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+    }
+}

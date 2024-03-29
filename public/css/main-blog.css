@@ -1,0 +1,15 @@
+body.scroll .breadcrumbs {
+    padding-top: 191px;
+}
+.questions {
+    margin-top: 48px;
+    margin-bottom: 140px;
+}
+.footer {
+    margin-top: 55px;
+}
+@media screen and (max-width: 1090px) {
+    body.scroll .breadcrumbs, .breadcrumbs {
+        padding-top: 40px;
+    }
+}

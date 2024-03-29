@@ -1,0 +1,111 @@
+.ask-btn {
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-decoration: none;
+    padding-top: 19px;
+    position: fixed;
+    z-index: 2;
+    bottom: 330px;
+    right: 129px;
+    /*background-color: #ffffff;
+    border-radius: 40px;
+    border: solid 10px #FFF;*/
+}
+.ask-btn__text {
+    -webkit-writing-mode: tb-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: tb-rl;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+    text-align: left;
+    font: normal normal 600 16px/14px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.ask-btn__logo {
+    width: 80px;
+    height: 80px;
+    background: #F5F5F5 url('../img/dialog.svg') 21px 21px no-repeat padding-box;
+    border-radius: 50%;
+    margin-top: 19px;
+}
+
+@media screen and (max-width: 1790px) {
+    .ask-btn {
+        right: 30px;
+        bottom: 330px;
+    }
+}
+@media screen and (max-width: 1580px) {
+    .ask-btn__text {
+        display: none;
+    }
+}
+@media screen and (max-width: 1420px) {
+    .ask-btn__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .ask-btn__text {
+        display: none;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .ask-btn__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media screen and (max-width: 950px) {
+    .ask-btn__text {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ask-btn__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        display: none;
+    }
+    .title__group {
+        position: relative;
+    }
+    .title__title {
+        width: 240px;
+    }
+    .ask-btn {
+        position: absolute;
+        top: -40px;
+        right: 10px;
+        bottom: auto;
+    }
+}
+/*@media screen and (max-width: 580px) {
+    .ask-btn__text {
+        display: none;
+    }
+}*/

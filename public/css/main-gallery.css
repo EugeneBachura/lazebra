@@ -1,0 +1,19 @@
+body.scroll .breadcrumbs {
+    margin-top: 218px;
+}
+.footer {
+    margin-top: 127px;
+}
+@media screen and (max-width: 1420px) {
+    body.scroll .breadcrumbs {
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    body.scroll .breadcrumbs {
+        margin-top: 65px;
+    }
+    .breadcrumbs {
+        margin-top: 65px;
+    }
+}

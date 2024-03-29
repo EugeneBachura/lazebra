@@ -1,0 +1,33 @@
+@media screen and (max-width: 1420px) {
+    .gallery-list {
+        width: 990px;
+    }
+    .gallery-list__item {
+        width: 310px;
+        height: 248px;
+        margin-right: 30px;
+    }
+    .gallery-list__title {
+        font: normal normal normal 24px/28px Nunito;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .gallery-list {
+        width: 723px;
+    }
+    .gallery-list__item {
+        width: 340px;
+        height: 272px;
+        margin-right: auto;
+    }
+    .gallery-list__item:nth-child(3n) {
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-list {
+        width: 340px;
+    }
+}

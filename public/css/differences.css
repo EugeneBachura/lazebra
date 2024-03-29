@@ -1,0 +1,147 @@
+.differences {
+    padding: 0px calc(50% - (1280px) / 2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 108px;
+}
+.differences__description {
+    width: 400px;
+    height: 328px;
+    background: transparent url('../img/differences_bg.png') 0% 0% no-repeat padding-box;
+    margin-top: 53px;
+    cursor: pointer;
+    padding: 92px 42px 0 45px;
+}
+.differences__desc-title {
+    text-align: center;
+    /*font: normal normal 800 30px/36px Nunito;*/
+	font: normal normal 800 19px/28px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+} 
+.differences__desc-subtitle {
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal normal 22px/30px "UT Laurelle";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.differences__desc-text {
+    margin-top: 35px;
+    text-align: center;
+    font: normal normal normal 16px/19px "Arial Nova";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.differences__desc-btn {
+    width: 280px;
+    height: 52px;
+    margin-top: 32px;
+    background: -o-linear-gradient(191deg, rgba(35,164,232,1) 0%, rgba(0,98,183,1) 100%);
+    background: linear-gradient(259deg, rgba(35,164,232,1) 0%, rgba(0,98,183,1) 100%);
+    background-size: cover;
+    border-radius: 77px;
+    font: normal normal 600 17px/52px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.differences__desc-btn:hover {
+    background: -o-linear-gradient(191deg, rgb(25 151 218) 0%, rgb(2 94 175) 100%);
+    background: linear-gradient(259deg, rgb(25 151 218) 0%, rgb(2 94 175) 100%);
+}
+.differences__content {
+    width: 910px;
+    max-height: 872px;
+    /*margin-left: -30px;*/
+    -webkit-box-shadow: 0px 0px 27px #00000029;
+            box-shadow: 0px 0px 27px #00000029;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 75px 51px 79px 70px;
+}
+.differences__content-column {
+    width: 350px;
+    height: 100%
+}
+.differences__content-items {
+    overflow: hidden;
+}
+.differences__line {
+    border: 1px dashed #D1D1D1;
+    width: 0px;
+    margin: -25px 53.5px -25px 35.5px;
+}
+.differences__content-title {
+    width: 350px;
+    height: 38px;
+    text-align: left;
+    font: normal normal 600 28px/30px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.differences__content-subtitle {
+    width: 350px;
+    height: 76px;
+    text-align: left;
+    font: normal normal normal 16px/18px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 41px;
+}
+.info-block {
+    width: 350px;
+    height: 148px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-top: 26px;
+}
+.info-block__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 11px;
+}
+.info-block__title {
+    width: 306px;
+    height: 30px;
+    text-align: left;
+    font: normal normal 600 19px/30px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.info-block__text {
+    width: 336px;
+    height: 112px;
+    text-align: left;
+    font: normal normal normal 16px/18px Nunito;
+    letter-spacing: 0px;
+    color: #7C8084;
+    margin-top: 10px;
+}
+.differences__content-offtop {
+    width: 350px;
+    height: 61px;
+    text-align: left;
+    font: normal normal normal 13px/15px 'Arial Nova';
+    letter-spacing: 0px;
+    color: #7C8084;
+}
+.differences__mobile-bottom {
+    display: none;
+}

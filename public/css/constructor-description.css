@@ -1,0 +1,36 @@
+.constructor-description {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 82px;
+}
+.constructor-description__block {
+    margin-bottom: 1rem;
+    text-align: left;
+    font: normal normal normal 16px/20px Nunito;
+    letter-spacing: 0px;
+}
+.constructor-description__block b {
+    font: normal normal bold 16px/20px Nunito;
+}
+.constructor-description__block:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1420px) {
+    .constructor-description {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .constructor-description {
+        width: 723px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .constructor-description {
+        width: 340px;
+    }
+}

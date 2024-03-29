@@ -1,0 +1,28 @@
+@media screen and (max-width: 1420px) {
+    .popup-map {
+        width: 990px;
+        height: 80vh;
+    }
+    .popup-map__frame {
+        width: 990px;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .popup-map {
+        width: 723px;
+    }
+    .popup-map__frame {
+        width: 723px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .popup-map {
+        width: 340px;
+    }
+    .popup-map__frame {
+        width: 340px;
+    }
+}

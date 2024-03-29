@@ -1,0 +1,53 @@
+@media screen and (max-width: 1420px) {
+    .user-settings {
+        width: 990px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .user-settings {
+        width: 723px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .user-settings {
+        width: 340px;
+        margin-top: 20px;
+    }
+    .user-settings__account-info {
+        width: 340px;
+        margin-bottom: 30px;
+    }
+    .user-settings__addresses {
+        margin-bottom: 30px;
+    }
+    .user-settings__address {
+        width: 340px;
+    }
+    .user-settings__address-number {
+        min-width: 36px;
+    }
+    .user-settings__address-text {
+        font: normal normal 600 13px/16px Nunito;
+        position: relative;
+        white-space: nowrap;
+        overflow-x: auto;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis; 
+    }
+    .user-settings__address-text::after {
+        content: '';
+        position: absolute; 
+        right: 0; top: 0;
+        width: 30px;
+        height: 100%;
+        background: -o-linear-gradient(185deg, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 15%, rgba(242,242,242,0) 100%);
+        background: linear-gradient(265deg, rgba(242,242,242,1) 0%, rgba(242,242,242,1) 15%, rgba(242,242,242,0) 100%);
+    }
+    .user-settings__address-close-btn {
+        min-width: 9px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}

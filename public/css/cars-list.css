@@ -1,0 +1,74 @@
+.cars-list {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+}
+.cars-list__item {
+    width: 290px;
+    height: 190px;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.cars-list__item:nth-child(4n) {
+    margin-right: 0px;
+}
+.cars-list__bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.cars-list__bg::before {
+    content: '';
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background: transparent -o-linear-gradient(top, #282A2C 0%, #4A5A7000 100%) 0% 0% no-repeat padding-box;
+    background: transparent -webkit-gradient(linear, left top, left bottom, from(#282A2C), to(#4A5A7000)) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #282A2C 0%, #4A5A7000 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.cars-list__bg::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #3A4B5D 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.25;
+    z-index: 9;
+}
+.cars-list__item:hover .cars-list__bg {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.cars-list__name {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    right: 14px;
+    text-align: left;
+    font: normal normal bold 18px/28px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    z-index: 10;
+}

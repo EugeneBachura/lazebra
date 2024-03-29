@@ -1,0 +1,150 @@
+.brandlist {
+    width: 1280px;  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 88px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+}
+
+.brandlist__title {
+    text-align: left;
+    font: normal normal 600 18px/36px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.brandlist__text {
+    width: 608px;
+    text-align: left;
+    font: normal normal normal 16px/20px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.brandlist__title + .brandlist__text {
+    margin-bottom: 40px;
+}
+.brandlist__brand.ford {
+    background: url('../img/car-brand/ford.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.honda {
+    background: url('../img/car-brand/honda.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.renault {
+    background: url('../img/car-brand/renault.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.peugeot {
+    background: url('../img/car-brand/peugeot.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.bmw {
+    background: url('../img/car-brand/bmw.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.toyota {
+    background: url('../img/car-brand/toyota.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.mazda {
+    background: url('../img/car-brand/mazda.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.lexus {
+    background: url('../img/car-brand/lexus.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.lada {
+    background: url('../img/car-brand/lada.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.chery {
+    background: url('../img/car-brand/chery.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.chevrolet {
+    background: url('../img/car-brand/chevrolet.png') 50% 50% no-repeat #F8F8F8;
+}
+.brandlist__brand.citroen {
+    background: url('../img/car-brand/citroen.png') 50% 50% no-repeat #F8F8F8;
+} 
+.brandlist__brand.other {
+    background-color: #F8F8F8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font: normal normal normal 16px/20px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+#brandSlider {
+    width: 1280px;
+    height: 118px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#brandSlider .slick-track{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+#brandSlider .slick-slide {
+    margin: 0 6px;
+    border-radius: 6px;
+    width: 130px;
+    height: 118px;
+}
+.brandlist__brand {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    background-blend-mode: multiply;
+}
+.brandlist__brand:hover {
+    -webkit-box-shadow: 0px 0px 15px #00000029;
+            box-shadow: 0px 0px 15px #00000029;
+}
+/* Стрелки */
+.brandlist__arrows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: calc( -45px - 32px) calc(50% - (1400px) / 2) 0 calc(50% - (1400px) / 2);
+}
+/* Стрелка влево */
+.brandlist__slick-prev{
+    background: transparent url('../img/arrow.svg') 0% 0% no-repeat padding-box;
+    width: 33px;
+    height: 33px;
+    border: none;
+    -webkit-transform: matrix(-1, 0, 0, -1, 0, 0);
+        -ms-transform: matrix(-1, 0, 0, -1, 0, 0);
+            transform: matrix(-1, 0, 0, -1, 0, 0);
+    cursor: pointer;
+}
+/* Стрелка вправо */
+.brandlist__slick-next{
+    background: transparent url('../img/arrow.svg') 0% 0% no-repeat padding-box;
+    width: 33px;
+    height: 33px;
+    border: none;
+    cursor: pointer;
+}
+.brandlist__arrows-margin {
+    height: calc( 80px - 33px);
+}
+
+/* blur fix */
+#brandSlider .slick-slide {display: none;}
+#brandSlider .slick-slide.slick-active {display: inherit;}

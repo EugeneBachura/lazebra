@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    .mfp-container {
+        padding: 0;
+    }
+    .mfp-content {
+        width: 100%;
+        height: 100%;
+    }
+    .popup-login {
+        /*width: 300px;*/
+        width: calc( 100% - 60px );
+        height: calc( 100% - 60px );
+        padding: 30px;
+        border-radius: 0;
+    }
+    .popup-login__title {
+        font: normal normal 600 22px/26px Nunito;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 23px;
+    }
+    .popup-login__form {
+        margin-bottom: 27px;
+    }
+    .popup-login__form-checkbox-text {
+        width: calc( 100% - 13px - 8px );
+        margin-bottom: 36px;
+    }
+    .popup-login__submit-btn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .popup-login__close-btn {
+        top: 20px;
+        right: 20px;
+        background: transparent url(../../img/x.svg) 0% 0% no-repeat padding-box;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,47 @@
+@media screen and (max-width: 1420px) {
+    .cars-list {
+        width: 990px;
+    }
+    .cars-list__item {
+        margin-right: 60px;
+    }
+    .cars-list__item:nth-child(4n) {
+        margin-right: 60px;
+    }
+    .cars-list__item:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .cars-list {
+        width: 723px;
+    }
+    .cars-list__item {
+        width: 235px;
+        height: 154px;
+        background-size: 235px;
+        margin-right: 9px;
+    }
+    .cars-list__item:nth-child(4n) {
+        margin-right: 9px;
+    }
+    .cars-list__item:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cars-list {
+        width: 340px;
+    }
+    .cars-list__item {
+        width: 340px;
+        height: 223px;
+        background-size: 340px;
+        margin-right: 0;
+    } 
+    .cars-list__item:nth-child(4n) {
+        margin-right: 0px;
+    }
+}

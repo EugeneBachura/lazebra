@@ -1,0 +1,39 @@
+.long-c-btn {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 34px;
+    padding: 29px 65px 27px 57px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #F5F5F5;
+    border-radius: 47px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.long-c-btn:hover {
+    background-color: #efefef;
+}
+.long-c-btn__icon {
+    width: 47px;
+    height: 47px;
+    background: transparent url(../img/construtor-logo.svg) -7px -7px no-repeat;
+    background-size: 61px;
+}
+.long-c-btn__text {
+    margin-left: 24px;
+    text-align: left;
+    font: normal normal 600 20px/20px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}

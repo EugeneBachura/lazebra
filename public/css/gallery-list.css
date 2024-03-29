@@ -1,0 +1,76 @@
+.gallery-list {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    /*-webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;*/
+}
+.gallery-list__item {
+    width: 400px;
+    height: 320px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+.gallery-list__item:nth-child(3n) {
+    margin-right: 0;
+}
+.gallery-list__bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.gallery-list__bg::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -o-linear-gradient(bottom, rgba(40,42,44,0) 0%, rgba(51,59,68,1) 100%);
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(40,42,44,0)), to(rgba(51,59,68,1)));
+    background: linear-gradient(0deg, rgba(40,42,44,0) 0%, rgba(51,59,68,1) 100%);
+}
+.gallery-list__item:hover .gallery-list__bg {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.gallery-list__title {
+    width: 256px;
+    text-align: left;
+    font: normal normal normal 26px/28px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 29px;
+}
+.gallery-list__item-btn {
+    width: 137px;
+    text-align: center;
+    font: normal normal 600 14px/36px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(30px);
+    -webkit-filter: brightness(145%);
+            filter: brightness(145%);
+    border-radius: 5px;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+}

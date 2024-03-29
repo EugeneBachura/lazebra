@@ -1,0 +1,33 @@
+.constructor {
+    width: 1280px;
+    height: 791px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 48px;
+    margin-bottom: 65px;
+    background: transparent url('../img/constructor/constructor.png') no-repeat padding-box;
+    -webkit-box-shadow: 0px 0px 30px #00000021;
+            box-shadow: 0px 0px 30px #00000021;
+    background-size: contain;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1420px) {
+    .constructor {
+        width: 990px;
+        height: 614px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .constructor {
+        width: 723px;
+        height: 449px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .constructor {
+        width: 340px;
+        height: 211px;
+    }
+}

@@ -1,0 +1,37 @@
+.breadcrumbs {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 33px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.breadcrumbs__arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-top: -1px;
+    margin-right: 10px;
+    background: url(../img/grey-back.svg) 0% 0% no-repeat;
+    background-size: contain;
+}
+.breadcrumbs__link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 14px/19px Nunito;
+    letter-spacing: 0px;
+    color: #919191;
+    margin-right: 25px;
+}
+.breadcrumbs__link:hover {
+    color: #383838;
+}

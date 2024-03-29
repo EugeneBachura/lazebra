@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .long-c-btn {
+        width: 300px;
+        padding: 29px 30px 27px 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .long-c-btn__icon {
+        width: 40px;
+        height: 40px;
+        background-size: 54px;
+    }
+    .long-c-btn__text {
+        width: 270px;
+        margin-left: 15px;
+        font: normal normal 600 16px/16px Nunito;
+    }
+}

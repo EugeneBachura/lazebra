@@ -1,0 +1,94 @@
+@media screen and (max-width: 1420px) {
+    .product {
+        margin-left: auto;
+        margin-right: auto;
+        width: 990px;
+    }
+    .product__title {
+        width: auto;
+    }
+    .product__subtitle {
+        width: auto;
+    }
+    #product-slider {
+        width: 990px;
+    }
+    #product-slider .slick-slide {
+        width: 465px !important;
+        height: 372px !important;
+        background-size: 465px !important;
+        margin: 0 20px 0;
+    }
+    .product__arrows, .product__arrows-margin {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .product {
+        width: 723px;
+    }
+    #product-slider {
+        width: 768px;
+    }
+    #product-slider .slick-slide {
+        width: 340px !important;
+        height: 273px !important;
+        background-size: 340px !important;
+        margin: 0 20px 0;
+    }
+    .product__arrows, .product__arrows-margin {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -4px;
+        width: 360px;
+    }
+    .product__title {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        font: normal normal bold 24px/36px Nunito;
+        margin-bottom: 15px;
+    }
+    .product__subtitle {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font: normal normal normal 13px/15px Nunito;
+        margin-bottom: 20px;
+    }
+    #product-slider {
+        width: 360px;
+        overflow: hidden;
+        margin: auto;
+    }
+    #product-slider .slick-list {
+        margin: 0 20px;
+    }
+    #product-slider .slick-slide {
+        width: 320px !important;
+        height: 270px !important;
+        background-size: 337px !important;
+        margin: 0 20px 0;
+    }
+    .product__item-content {
+        background: -o-linear-gradient(bottom, rgba(40,42,44,0) 0%, rgba(51,59,68,0.7) 100%);
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(40,42,44,0)), to(rgba(51,59,68,0.7)));
+        background: linear-gradient(0deg, rgba(40,42,44,0) 0%, rgba(51,59,68,0.7) 100%);
+    }
+    .product__arrows, .product__arrows-margin {
+        display: none;
+    }
+}
+@media screen and (max-width: 610px) {
+    .product__subtitle {
+        text-align: left;
+    }
+}

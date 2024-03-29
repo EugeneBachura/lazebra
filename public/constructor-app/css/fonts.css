@@ -1,0 +1,64 @@
+/* Nunito */
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito-SemiBold.eot");
+  src: url("../font/Nunito-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../font/Nunito-SemiBold.ttf") format("truetype"),
+    url("../font/Nunito-SemiBold.woff") format("woff"),
+    url("../font/Nunito-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito-Regular.eot");
+  src: url("../font/Nunito-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/Nunito-Regular.ttf") format("truetype"),
+    url("../font/Nunito-Regular.woff") format("woff"),
+    url("../font/Nunito-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../font/Nunito-Bold.eot");
+  src: url("../font/Nunito-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../font/Nunito-Bold.ttf") format("truetype"),
+    url("../font/Nunito-Bold.woff") format("woff"),
+    url("../font/Nunito-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../font/Nunito-Light.eot');
+  src: url('../font/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/Nunito-Light.ttf') format('truetype'),
+       url('../font/Nunito-Light.woff') format('woff'),
+       url('../font/Nunito-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+/* ArialNova */
+@font-face {
+  font-family: "Arial Nova";
+  src: url("../font/ArialNova-Regular.eot");
+  src: url("../font/ArialNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/ArialNova.ttf") format("truetype"),
+    url("../font/ArialNova.woff") format("woff"),
+    url("../font/ArialNova-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* UT Laurelle */
+@font-face {
+  font-family: "UT Laurelle";
+  src: url("../font/UTLaurelle-Regular.eot");
+  src: url("../font/UTLaurelle-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/UTLaurelle-Regular.ttf") format("truetype"),
+    url("../font/UTLaurelle-Regular.woff") format("woff"),
+    url("../font/UTLaurelle-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}

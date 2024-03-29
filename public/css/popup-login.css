@@ -1,0 +1,127 @@
+.popup-login {
+    width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 76px;
+    padding-right: 96px;
+    padding-left: 96px;
+    padding-bottom: 63px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+}
+.mfp-fade.mfp-bg, .mfp-fade.mfp-wrap .mfp-content  {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+.mfp-bg.mfp-ready {
+    background: #1B2229;
+    opacity: 0.7;
+}
+.mfp-wrap.mfp-auto-cursor.mfp-ready {
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+}
+.popup-login__title {
+    margin-bottom: 25px;
+    text-align: left;
+    font: normal normal 600 32px/36px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+}
+.popup-login__form-tel  {
+    width: 100%;
+    height: 22px;
+    padding: 12px 15px;
+    margin-bottom: 14px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-tel::-webkit-input-placeholder {
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-tel::-moz-placeholder {
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-tel:-ms-input-placeholder {
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-tel::-ms-input-placeholder {
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-tel::placeholder {
+    text-align: left;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__form-checkbox {
+    margin: 0;
+}
+.popup-login__form-checkbox-text {
+    width: 518px;
+    margin-left: 8px;
+    margin-bottom: 30px;
+    text-align: left;
+    font: normal normal normal 14px/14px Nunito;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.popup-login__submit-btn {
+    width: 255px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    background: -o-linear-gradient(191deg, rgba(246,82,31,1) 0%, rgba(236,54,54,1) 100%);
+    background: linear-gradient(259deg, rgba(246,82,31,1) 0%, rgba(236,54,54,1) 100%);
+    border: none;
+    border-radius: 77px;
+    text-align: center;
+    font: normal normal 600 18px/34px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.popup-login__submit-btn:hover {
+    background: -o-linear-gradient(195deg, rgb(216 78 35) 0%, rgb(202 61 61) 100%);
+    background: linear-gradient(255deg, rgb(216 78 35) 0%, rgb(202 61 61) 100%);
+}
+.popup-login__close-btn {
+    content: '';
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top:-29px;
+    right: 0;
+    background: transparent url('../img/w-x.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    cursor: pointer;
+}

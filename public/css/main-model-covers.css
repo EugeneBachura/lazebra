@@ -1,0 +1,9 @@
+.product {
+    margin-top: 40px;
+}
+#previewSlider .slick-dots .slick-active::before {
+    display: none;
+}
+.footer {
+    margin-top: 0;
+}

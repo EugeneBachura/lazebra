@@ -1,0 +1,16 @@
+.title__subtitle {
+    font: normal normal normal 16px/20px Nunito;
+    max-width: unset;
+    margin-bottom: 1rem;
+}
+.title__subtitle:last-child {
+    margin-bottom: 0;
+}
+.footer {
+    margin-top: 110px;
+}
+@media screen and (max-width: 1090px) {
+    .title__group {
+        width: 723px;
+    }
+}
